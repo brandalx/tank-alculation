@@ -78,5 +78,22 @@ public class Tank {
                 break;
         }
     }
+    public void handleDistance(Tank tank, int distance) {
+int km = 2;
+
+
+int result = distance * km;
+
+if (result > tank.getCapacity()){
+    double fuelTankRequired = (double) result / tank.getCapacity();
+
+    System.out.println("The total amount of fuel for provided distance is " + result + " and its fuel barrel is " + fuelTankRequired);
+}else{
+
+    System.out.println("The total amount of fuel for provided distance is "+ result +" and its fuel barrel is " +1);
 }
+    }
+    }
+
+
 

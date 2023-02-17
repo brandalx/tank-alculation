@@ -9,5 +9,6 @@ public class Main {
         t.handleCount(t1, '+', 500);
         t.handleCount(t1, '-', 500);
         t.handleCount(t1, 'd', 500);
+        t1.handleDistance(t1, 900);
     }
 }
